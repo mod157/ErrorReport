@@ -37,6 +37,17 @@ Permission 처리 필요( read, write storge)
 </paths>
 ```
 #[Android] IndexOutOfBoundsException
- 
- 
-#[Android] 
+
+
+#[Android] Error:Execution failed for task ':app:processDebugResources'.
+com.android.ide.common.process.ProcessException: Failed to execute aapt
+```
+compat을 build시 삭제하면 발생, 찾지 못했기에 발생한다.
+```
+
+#java.lang.RuntimeException: Unable to instantiate application
+```
+폴더 중에 한글이 있는지 확인
+https://translate.googleusercontent.com/translate_c?depth=1&hl=ko&prev=search&rurl=translate.google.co.kr&sl=en&sp=nmt4&u=https://stackoverflow.com/questions/32171968/your-project-path-contains-non-ascii-characters-android-studio&usg=ALkJrhihaiVypjtcoSEzqS_h8SREMOtdMw
+
+```
