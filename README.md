@@ -38,9 +38,8 @@ Permission 처리 필요( read, write storge)
 ```
 #[Android] IndexOutOfBoundsException
 
-
 #[Android] Error:Execution failed for task ':app:processDebugResources'.
-com.android.ide.common.process.ProcessException: Failed to execute aapt
+#com.android.ide.common.process.ProcessException: Failed to execute aapt
 ```
 compat을 build시 삭제하면 발생, 찾지 못했기에 발생한다.
 ```
