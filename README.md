@@ -50,3 +50,21 @@ compat을 build시 삭제하면 발생, 찾지 못했기에 발생한다.
 https://translate.googleusercontent.com/translate_c?depth=1&hl=ko&prev=search&rurl=translate.google.co.kr&sl=en&sp=nmt4&u=https://stackoverflow.com/questions/32171968/your-project-path-contains-non-ascii-characters-android-studio&usg=ALkJrhihaiVypjtcoSEzqS_h8SREMOtdMw
 
 ```
+
+#[Unity3D] unity system.io.ports not found
+ ```
+  Edit>ProjectSettings>Player>ApiCompatibilityLevel 에서 .NET 2.0으로 변환(Sub X)
+ ```
+#[Unity3D] CommandInvokationFailure: Unable to list target platforms. Please make sure the android sdk path is correct.
+```
+tools 버전이 업그레이드 되면서 Unity가 빠진듯 함.
+다운그레이 하면 잘됨.
+http://answers.unity3d.com/questions/1320150/unable-to-list-target-platform.html
+```
+#[Unity3D] gradle build failed see the console for details
+#[Unity3D] CommandInvokationFailure: Gradle build failed.
+```
+java9을 8으로 다운그레이 해결
+```
+
+#MissingComponentException: There is no 'Renderer' attached to the "VideoController" game object, but a script is trying to access it.
