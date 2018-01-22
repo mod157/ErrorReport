@@ -44,12 +44,25 @@ Permission 처리 필요( read, write storge)
 compat을 build시 삭제하면 발생, 찾지 못했기에 발생한다.
 ```
 
+#[Android] IllegalThreadStateException: Thread already started
+```
+쓰레드가 사용중이라 발생하는 현상, 레디 체크 후 시작
+if(!thread.isAlive()){
+thread.start();
+}
+
+
+```
+
 #java.lang.RuntimeException: Unable to instantiate application
 ```
 폴더 중에 한글이 있는지 확인
 https://translate.googleusercontent.com/translate_c?depth=1&hl=ko&prev=search&rurl=translate.google.co.kr&sl=en&sp=nmt4&u=https://stackoverflow.com/questions/32171968/your-project-path-contains-non-ascii-characters-android-studio&usg=ALkJrhihaiVypjtcoSEzqS_h8SREMOtdMw
 
 ```
+
+
+
 
 #[Unity3D] unity system.io.ports not found
  ```
@@ -68,3 +81,8 @@ java9을 8으로 다운그레이 해결
 ```
 
 #MissingComponentException: There is no 'Renderer' attached to the "VideoController" game object, but a script is trying to access it.
+
+#CS0103: The name ## does not exist in the current context
+```
+존재하지 않는 Context가 존재, 사용 되어지는 부분에서 삭제
+```
