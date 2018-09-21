@@ -80,7 +80,7 @@ http://answers.unity3d.com/questions/1320150/unable-to-list-target-platform.html
 java9을 8으로 다운그레이 해결
 ```
 
-#MissingComponentException: There is no 'Renderer' attached to the "VideoController" game object, but a script is trying to access it.
+#[Unity3D] MissingComponentException: There is no 'Renderer' attached to the "VideoController" game object, but a script is trying to access it.
 
 #CS0103: The name ## does not exist in the current context
 ```
