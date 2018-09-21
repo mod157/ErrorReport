@@ -86,3 +86,9 @@ java9을 8으로 다운그레이 해결
 ```
 존재하지 않는 Context가 존재, 사용 되어지는 부분에서 삭제
 ```
+
+#[Unity3D] is an incorrect path for a scene file. BuildPlayer expects paths relative to the project folder.
+```
+Scene path를 찾지 못해서 발생
+Build에서 Scene을 다시 추가해주면 해결
+```
