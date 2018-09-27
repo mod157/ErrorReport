@@ -92,3 +92,8 @@ java9을 8으로 다운그레이 해결
 Scene path를 찾지 못해서 발생
 Build에서 Scene을 다시 추가해주면 해결
 ```
+
+#[Unity3D] CheckConsistency: GameObject does not reference component MonoBehaviour. Fixing.
+```
+신 전환 후 발생하지 않음
+```
