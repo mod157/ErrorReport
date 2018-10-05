@@ -97,3 +97,10 @@ Build에서 Scene을 다시 추가해주면 해결
 ```
 신 전환 후 발생하지 않음
 ```
+
+#[Oculus Go] Oculus go Ocullus update Require
+```
+1. 오큘러스 고 페어링 초기화
+2. 스마트폰 Oculus 어플 재셜치
+3. 페어링 초기화
+```
