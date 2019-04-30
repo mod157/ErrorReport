@@ -89,6 +89,7 @@ java9을 8으로 다운그레이 해결
 
 #[Unity3D] is an incorrect path for a scene file. BuildPlayer expects paths relative to the project folder.
 ```
+
 Scene path를 찾지 못해서 발생
 Build에서 Scene을 다시 추가해주면 해결
 ```
@@ -97,7 +98,21 @@ Build에서 Scene을 다시 추가해주면 해결
 ```
 신 전환 후 발생하지 않음
 ```
+#[Unity3D] Shadow map cache entry with NULL shadowmap?
+```
+Screen Space Shadows in Custom
+Edit > ProjectSettings >  graphics > Built-in Shader Settings > Screen Space Shadows > Built-in shader
+```
 
+#[Unity3D] Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+```
+remove Rigidbody
+```
+
+#[Unity3D] Screenspace cascaded shadow map support is disabled in graphics settings
+```
+Edit > ProjectSettings >  graphics > Built-in Shader Settings > Screen Space Shadows > Built-in shader
+```
 #[Oculus Go] Oculus go Ocullus update Require
 ```
 1. 오큘러스 고 페어링 초기화
